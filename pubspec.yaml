@@ -1,0 +1,16 @@
+name: politiclal-analysis
+description: Predicting the US election with people's thoughts on Bluesky
+version: 1.0.0
+# repository: https://github.com/likes-gay/politiclal-analysis
+
+environment:
+  sdk: ^3.1.2
+
+# Add regular dependencies here.
+dependencies:
+  bluesky: ^0.15.8
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0

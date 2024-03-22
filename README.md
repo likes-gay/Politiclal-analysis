@@ -1,1 +1,0 @@
-# Politiclal-analysis
