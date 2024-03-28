@@ -1,0 +1,18 @@
+services:
+  database:
+    container_name: mongodb-paapi
+    image: mongodb/mongodb-community-server
+    ports:
+      - 27017:2701
+    networks:
+      - paapi
+    restart: unless-stopped
+
+  backend-firehose:
+    image: backend-firehose
+    build:
+      dockerfile: Dockerfile
+    networks:
+      - paapi
+    restart: unless-stopped
+
