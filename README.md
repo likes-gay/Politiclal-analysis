@@ -1,2 +1,2 @@
-# politiclal-analysis
+# political-analysis
 

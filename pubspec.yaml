@@ -1,7 +1,7 @@
 name: firehose
 description: Predicting the US election with people's thoughts on Bluesky
 version: 1.0.0
-# repository: https://github.com/likes-gay/politiclal-analysis
+# repository: https://github.com/likes-gay/political-analysis
 
 environment:
   sdk: ^3.1.2
